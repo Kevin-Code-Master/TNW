@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" href="./favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<title>TNW</title>
+</head>
+<body>
+	<div class="container"><!--This is the main body container-->
+		<div class="header1"><!--The first header black-->
+			<nav id="left"><!--This is the main navigation in heade1 left-->
+				<ul>
+					<li><a href="#">News</a></li>
+					<button id="event"onmouseover="myFunction()" onmouseout ="myFunctionOut()">Events<i class="fa fa-caret-down" id="caret-down"></i></button>
+					<div id="dropdown">
+						<a href="#">TNW2020</a>
+						<a href="#">Couch Conference</a>
+					</div>
+					<button id="business"  onmouseover="business()" onmouseout="businessOut()">Business <i class="fa fa-caret-down" id="caret-down"></i></button>
+					<div id="dropdown2">
+						<a href="#">Index</a>
+						<a href="#">Programs</a>
+					</div>
+					<li>AMAs</li>
+					<li>Spaces</li>
+					<li>Terms &#38; Conditions</li>
+				</ul>
+			</nav>
+			<nav id="right"><!--second nav in the header1 right-->
+				<a href="#">About</a>
+				<a href="#">Advertise</a>
+				<a href="#">Jobs</a>
+				<a href="#">Contact</a>
+			</nav>
+		</div>
+		<div class="header2"><!--header2 with navigation and search button-->
+			<nav id="header2-nav">
+				<a href="#">LATEST</a>
+				<a href="#">HARD FORK	</a>
+				<a href="#">PLUGGED</a>
+				<a href="#">README</a>
+				<a href="#">GROWTH QUARTERS</a>
+				<a href="#">SHIFT</a>
+				<a href="#">NEUTRAL</a>
+			</nav>
+			<div id="search"><a href="#" target="_blank"><i class="fa fa-search"></a></i>
+			</div>
+			<!--grid section-->
+		</div>
+		<section id="main">
+			<div id="main-logo">
+
+				<a href=""><img src="./Assets/logo.jpg" style="margin: 10px; z-index: -1;"></a>
+				<div id="time"><p id="local-time"></p></div>
+				<div id="headlines">
+						<p style="font-family: Shentox, sans-serif; font-weight: bold; color: white; margin-left: 10px;">APPS</p><br><p style="font-family: Shentox, sans-serif; font-size: 42px; color: white; margin-left: 10px;">Google Chrome gets a new icon in Big Sur - and it wants your help choosing the next</p>
+						<div id="highlights">
+							<p style="margin-left:10px;"><span style="color: white; margin: 0 5px;">by <a href="#"style="text-orientation: none; color: grey;">Callum Booth</a></span></p><i class="fa fa-clock-o"></i><p style="margin: 0 5px;">40 minutes ago</p><i class="fa fa-share-square-o"></i><p style="margin-left: 3px;">0</p>
+						</div>
+					</div>
+			</div>
+			<div id="caption">
+				<div id="caption2">
+					<div id="headlines">
+						<p style="font-family: Shentox, sans-serif; font-weight: bold; color: white; margin-left: 10px;">INSIGHTS</p><br><p style="font-family: Shentox, sans-serif; font-size: 29px; color: white; margin-left: 10px;">Why post-pandemic Ubers and Netflixes will be nothing like their predecessors</p>
+						<div id="highlights">
+							<p style="margin-left:10px;"><span style="color: white; margin: 0 5px;">by <a href="#"style="text-orientation: none; color: grey;">Chris Howard</a></span></p><i class="fa fa-clock-o"></i><p style="margin: 0 5px;">1 hour ago</p><i class="fa fa-share-square-o"></i><p style="margin-left: 3px;">5</p>
+						</div>
+					</div>
+				</div>
+				<div id="caption3">
+					<div id="headlines">
+						<p style="font-family: Shentox, sans-serif; font-weight: bold; color: white; margin-left: 10px;">PLAY</p><br><p style="font-family: Shentox, sans-serif; font-size: 30px; color: white; margin-left: 10px;">Wonder Woman 1984 gets a<br> Christmas debut on HBO Max</p>
+						<div id="highlights">
+							<p style="margin-left:10px;"><span style="color: white; margin: 0 5px;">by <a href="#" style="text-orientation: none; color: silver;">Rachel Kaser</a></span></p><i class="fa fa-clock-o"></i><p style="margin: 0 5px;">2 hours ago</p><i class="fa fa-share-square-o"></i><p style="margin-left: 3px;">3</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="latest-news">
+			<div class="title">
+				<a href="#"><h2>Latest News <i class="fa fa-angle-right" style="font-weight: bold;"></i></h2></a>
+			</div>
+			<div class="youtube">
+				<img src="./Assets/youtube.png" id="items">
+				<a href="#"><p style="margin-left: 10px; font-weight: 700;text-align: justify;">YouTube’s greedy new ad policy will hurt vulnerable creators <br>the most</p></a>
+				<p style="margin: 2px 10px; color: grey;font-size: 12px;"> Mix- 24 minutes ago</p>
+			</div>
+			<div class="chrome">
+				<img src="./Assets/chrome.png" id="items">
+				<a href="#"><p style="margin-left: 10px; font-weight: 700; text-align: justify;">Google Chrome for M1 Macs is out — here’s how to get it</p></a>
+				<p style="margin: 2px 10px; color: grey;font-size: 12px;">Ivan Mehta - 2 hours ago</p>
+			</div>
+			<div class="google-pay">
+				<img src="./Assets/google-pay.jpg" id="items">
+				<a href="#"><p style="margin-left: 10px; font-weight: 700; text-align: justify;">Google Pay gets a complete makeover to try to handle all your finances</p></a>
+				<p style="margin: 2px 10px; color: grey;font-size: 12px;">Napier Lopez - 7 hours ago</p>
+			</div>
+			<div class="neural">
+				<img src="./Assets/neural.jpg" id="items">
+				<a href="#"><p style="margin-left: 10px; font-weight: 700; text-align: justify;">Neural’s guide to the glorious future of AI: Here’s how machines become sentient</p></a>
+				<p style="margin: 2px 10px; color: grey;font-size: 12px;">Tristan Greene - 12 hours ago</p>
+			</div>
+			<div class="google">
+				<img src="./Assets/google.jpg" id="items">
+				<a href="#"><p style="margin-left: 10px; font-weight: 700; text-align: justify;">Google’s new AI tool turns your terrible drawings into hideous monsters</p></a>
+				<p style="margin: 2px 10px; color: grey;font-size: 12px;">Thomas Macaulay - 14 hours ago</p>
+			</div>
+			<div class="FITT">
+				<img src="./Assets/FITT.jpg" id="items">
+				<a href="#"><p style="margin-left: 10px; font-weight: 700; text-align: justify;">The FITT360 is the hands-free 4K 360 degree camera that lets you experience and capture life at the same time</p></a>
+				<p style="margin: 2px 10px; color: grey;font-size: 12px;">Thomas Macaulay- 14 hours ago</p>
+			</div>
+			<div class="strava">
+				<img src="./Assets/strava.jpg" id="items">
+				<a href="#"><p style="margin-left: 10px; font-weight: 700; text-align: justify;">Strava finally reinstates support for Bluetooth heart rate monitors — after dropping it last year</p></a>
+				<p style="margin: 2px 10px; color: grey;font-size: 12px;"> Matthew Beedham - 18 hours ago</p>
+			</div>
+			<div class="item8">
+				<img src="./Assets/app-store.jpg" id="items">
+				<a href="#"><p style="margin-left: 10px; font-weight: 700; text-align: justify;">Highly rated App Store and Play Store language learning app, Babbel, is now half off</p></a>
+				<p style="margin: 2px 10px; color: grey;font-size: 12px;"> TNW Deals - 18 hours ago</p>
+			</div>
+		</section>
+	</div>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
