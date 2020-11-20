@@ -20,5 +20,5 @@ function businessOut(){
 }
 
 //for the time display
-let date = newDate();
+let date = new Date();
 document.getElementById("local-time").innerHTML = date.toLocaleString();
