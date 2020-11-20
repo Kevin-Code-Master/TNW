@@ -313,7 +313,7 @@ footer{
 }
 #contacts{
 	width: 80%;
-	height: 40%;
+	height: 50%;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -322,7 +322,7 @@ footer{
 }
 #contact-icons{
 	font-size: 14px;
-	padding: 8px;
+	padding: 10px;
 	margin: 5px;
 	border-radius: 50%;
 	background-color: grey;
@@ -373,15 +373,4 @@ footer{
 #stackpath{
 	width: 90px;
 	height: 60px;
-}
-#menu-icon{
-	margin-right: -200px;
-	background-color: red;
-	width: 60px;
-	height: 60px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border-radius: 50%;
-
 }
