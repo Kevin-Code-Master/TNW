@@ -174,7 +174,9 @@ a{
 	background-image: url("./Assets/Zero S.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-color: red;
+}
+#headlines a{
+	color: white;
 }
 #caption3{
 	margin: 2.5px auto;
